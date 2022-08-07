@@ -32,6 +32,9 @@ public class SnakeAndLadder {
             if (Position < 0) {
                 Position = 0;
             }
+            if (Position > 100) {
+                Position = 0;
+            }
             System.out.println("You are now at " + Position + "th" + " position");
         }
     }

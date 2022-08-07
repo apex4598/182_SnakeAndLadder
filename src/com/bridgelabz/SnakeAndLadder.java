@@ -10,7 +10,7 @@ public class SnakeAndLadder {
 
         int startPosition=0;
 
-            int DieRolled = (int) (Math.random() * 6) + 1;
+        int DieRolled = (int) (Math.random() * 6) + 1;
             
     }
 
